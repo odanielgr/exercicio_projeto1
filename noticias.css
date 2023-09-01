@@ -57,6 +57,7 @@ header .container {
 
 .articles article {
     width: 49%;
+    margin: 0 auto;
 }
 
 article p {
@@ -83,6 +84,41 @@ footer p {
     color: white;
     padding: 5px;
     text-align: center;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+
+    section .articles {
+        display: block;
+    }
+
+    .articles article {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablets */
+
+@media screen and (max-width: 1297px) and (min-width: 768px) {
+
+    .articles article {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1298px) {
+
+    .articles article {
+        width: 40%;
+        margin: 0 auto;
+    }
 }
 
 

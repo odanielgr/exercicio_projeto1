@@ -48,6 +48,8 @@ header .container {
     justify-content: space-between;
 }
 
+/* section front img */
+
 .frontimg {
     width: 45%;
     margin-right: 16px;
@@ -77,6 +79,9 @@ section .materia:hover {
 section h2 {
     font-family: 'Ysabeau SC', sans-serif;
 }
+
+/* section contato */
+
 section h3 {
     font-size: 20px;
     margin-top: 16px;
@@ -137,4 +142,76 @@ footer p {
     color: white;
     padding: 5px;
     text-align: center;
+}
+
+/* Mobile */
+
+@media screen and (max-width:767px) {
+
+    header .container {
+        display: block;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header nav li {
+        display: block;
+        align-items: center;
+    }
+
+    header nav li a:hover {
+        padding: 4px;
+        transition: none;
+    }
+
+    section .container {
+        display: block;
+        width: 90%;
+    }
+
+    .frontimg {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .social-mediaDiv {
+        text-align: right;
+    }
+
+    .social-links li a  {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .social-links img {
+        margin-right: 0px;
+    }
+}
+
+/* Tablets */
+
+@media screen and (max-width: 1297px) and (min-width: 768px) {
+
+    header .container {
+        width: 90%;
+    }
+
+    section .container {
+        width: 95%;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1298px) {
+
+    header .container {
+        width: 90%;
+    }
+
+    section .container {
+        width: 95%;
+    }
 }
