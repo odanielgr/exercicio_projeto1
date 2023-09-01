@@ -90,6 +90,16 @@ footer p {
 
 @media screen and (max-width: 767px) {
 
+    header .container {
+        display: block;
+        text-align: center;
+    }
+
+    header nav li a:hover {
+        padding: 4px;
+        transition: none;
+    }
+
     section .articles {
         display: block;
     }
